@@ -1,4 +1,100 @@
 \section{Theorie}
 \label{sec:Theorie}
 
-\cite{sample}
+\subsection{spezifische Wärmekapazität und Atomwärme}
+Unter der Atomwärme $C$ eines bestimmten Stoffes 
+versteht man eine bestimmte
+Wärmemenge $\symup{d}Q$, die erforderlich ist, um
+ein Mol des Stoffes um $\symup{d}T$ zu erwärmen.
+Da die Wärmemenge eine Form der Energie darstellt,
+gilt $\symup{d}Q = \symup{d}U$, wobei $U$ der
+inneren Energie eines Mols des Stoffes entspricht.
+
+
+\noindent Bezieht sich nun diese Größe auf die Masse des Stoffes,
+so ergibt sich die spezifische Wärmekapazität $c$.
+
+
+\noindent Da beide Größen von den äußeren Bedingungen der
+Wärmezufuhr abhängen wird zwischen der Atomwärme
+und spezifischen Wärmekapazität bei gleichem Volumen
+
+\begin{equation}
+    C_V=\frac{\symup{d}Q}{\symup{d}T}\biggr|_V=\frac{\symup{d}U}{\symup{d}T}\biggr|_V
+    \label{eq:b}
+\end{equation}
+
+\begin{equation}
+    c_V=\frac{\symup{d}Q}{m \cdot \symup{d}T}\biggr|_V=\frac{\symup{d}U}{m \cdot \symup{d}T}\biggr|_V
+\end{equation}
+\noindent und gleichem Druck
+
+\begin{equation}
+    C_P=\frac{\symup{d}Q}{\symup{d}T}\biggr|_P=\frac{\symup{d}U}{\symup{d}T}\biggr|_P
+\end{equation}
+
+\begin{equation}
+    c_P=\frac{\symup{d}Q}{m \cdot \symup{d}T}\biggr|_P=\frac{\symup{d}U}{m \cdot \symup{d}T}\biggr|_P
+\end{equation}
+
+\noindent unterschieden. Zwischen $C_V$ und $C_P$
+besteht außerdem der Zusammenhang
+
+\begin{equation}
+    C_P-C_V=9\alpha^2\kappa V_0T,
+\end{equation}
+
+wobei $\alpha$ einem linearen Ausgleichskoeffizient,
+$\kappa$ dem Kompressionsmodul und $V_0$ dem Molvolumen entspricht.
+
+
+
+
+\subsection{klassische Beschreibung}
+Die über einen Zeitraum $\tau$ gemittelte innere 
+Energie eines Atoms beträgt
+
+\begin{equation}
+    \bigl< u\bigr>=\frac{1}{\tau}\int_0^{\tau}u(t)\,\symup{d}t=\bigl< E_{kin}\bigr>+\bigl< E_{pot}\bigr>.
+\end{equation}
+
+\noindent befindet sich das Atom in einem Festkörper,
+so kann es dort nur Schwinungen um eine Gleichgewichtslage 
+ausführen, da es durch Gitterkräfte gebunden ist. Es
+wird angenommen, dass es sich bei der Schwingung um eine
+harmonische handelt, weshalb der Zusammenhang
+
+\begin{equation}
+    \bigl< E_{kin}\bigr>=\bigl< E_{pot}\bigr>
+\end{equation}
+
+\noindent gilt. Aus dem Äquipartitionstheorem folgt
+
+\begin{equation}
+    \bigl< E_{kin}\bigr>=\frac{1}{2}kT,
+\end{equation}
+
+\noindent pro Bewegungsfreiheitsgrad, wobei k der Boltzmannschen Konstante
+entspricht und T die äußere Temperatur angibt. Da ein Atom im Festkörper in drei senkrecht aufeinander liegende
+Richtungen schwingen kann gilt
+
+\begin{equation}
+    \bigl< u\bigr>=2\bigl< E_{kin}\bigr>=3kT.
+    \label{eq:a}
+\end{equation}
+
+\noindent Wird nun statt eines Atoms ein Mol des Stoffes
+betrachtet so ändert sich \ref{eq:a} zu
+
+\begin{equation}
+    \bigl< U\bigr>=2\bigl< E_{kin}\bigr>=3RT
+\end{equation}
+
+\noindent mit R als allgemeine Gaskonstante. Aus Gleichung \ref{eq:b}
+folgt nun das Dulong-Petitsche Gesetz
+
+\begin{equation}
+    C_V=3R.
+\end{equation}
+
+\subsection{quantenmechanische Beschreibung}
