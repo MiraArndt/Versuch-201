@@ -38,7 +38,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Das Dulong-Petitsche Gesetz}
-      \true{nocite}
     \endentry
     \entry{matplotlib}{article}{}
       \name{author}{1}{}{%
@@ -181,6 +180,30 @@
       \verb{url}
       \verb http://www.numpy.org/
       \endverb
+    \endentry
+    \entry{stocker2004taschenbuch}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b60c4428087372cf11feb4fad8277a83}{%
+           family={St{ö}cker},
+           familyi={S\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harri Deutsch Verlag}%
+      }
+      \strng{namehash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{fullhash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{bibnamehash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{authorbibnamehash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{authornamehash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{authorfullhash}{b60c4428087372cf11feb4fad8277a83}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Taschenbuch der Physik: Formeln, Tabellen, {Ü}bersichten}
+      \field{year}{2004}
     \endentry
   \enddatalist
 \endrefsection
