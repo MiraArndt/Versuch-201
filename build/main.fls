@@ -332,10 +332,13 @@ INPUT ./content/ziel.tex
 INPUT ./content/ziel.tex
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
+INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
+<<<<<<< HEAD
 INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -372,6 +375,11 @@ INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lm
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+||||||| merged common ancestors
+INPUT build/plot.pdf
+INPUT build/plot.pdf
+=======
+>>>>>>> refs/remotes/origin/master
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT ./content/anhang.tex
